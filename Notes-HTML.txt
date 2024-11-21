@@ -18,7 +18,10 @@ HTML Comments: <!-- Comment -->
 
 Two main part of HTML:
 	- head: contains metadata. Not displayed on the webpage.
-	- body: Content of the page displayed on the webpage.
+	- body: Content of the page displayed on the webpage. Three main parts of body are:	
+		* Header
+		* Main
+		* Footer
 
 HTML Structure: 
 	- Must begins with "<!DOCTYPE html>
@@ -64,9 +67,7 @@ Steps to create an HTML file.
 	- &nbsp;
 	- &lt
 	- &gt
-Handling Text:
-	- <h1> </h1>: up to h6
-	- <p> </p>
+
 Inline Element: 
 	- <em></em>
 	- <strong></strong>
@@ -80,21 +81,39 @@ Chapter 3: Text Basics
 	- Only one h1 tag per page
 	- Successive h tags get smaller fonts
 	- Browser automatically adds a blank line before and after any paragraph element. 
-	- Whitespace collapsing: html does not honor whitespace and reformat on its own to 	one space.
+	- Whitespace collapsing: html does not honor whitespace and reformat on its own to one space.
+
+Handling Text:
+	- <h1> </h1>: Headline, up to h6
+	- <p> </p> : Paragraph
+	- <hr> : Horizontal Rule
+	- <br> : Break
+	- <b> </b> :  bold
+ 	- <i> </i> : italicized
+	- <em> </em> : Emphasis
+	- <big> </big> : Big font
+	- <small> </small> : Small font
+	- <sub> </sub> : subscript
+	- <sup> <sup> : superscript
+	- <abbr title: "Full form goes here"> </abbr> : abbreviation
+	- <address> </address> 
+	- <strong> </strong>
+
 Chapter 4: Lists
 	- Ordered list : 
-	<ol>
-	<li>   </li>
+	<ol> : Ordered list
+	<li>   </li> : List item
 	</ol>
+
 	- Unordered list
-	<ul>
-	<li>   </li>
+	<ul> : Unordered list
+	<li>   </li> : List item.
 	</ul>
 
 	- Description List(dl), dt – description term, dd – description details
-	<dl>
-	<dt>North Pole  </dt>
-	<dd> cold </dd>
+	<dl> : Description List
+	<dt>North Pole  </dt> : Description Term
+	<dd> cold </dd> : Description Details
 	</dl>
 Chapter 5: Links
 	• Absolute reference: 
@@ -106,7 +125,7 @@ Chapter 5: Links
 	</section>
 		- <nav> </nav>
 		- Back to top using # only
-		- <a href = “html.png” download>HTML5 facicon</a>
+		- <a href = “html.png” download>HTML5 favicon</a>
 		- <a href = “mailto:sadi@gmail.com”>my email </a>
 		- <a href = “tel:+1234567890”>my telephone</a>
 		- <a href = https://www.google.com/ target = “_blank”></a> 
@@ -118,7 +137,12 @@ Chapter 6: Add Images
 	- Width = “300”
 	- Height = “300
 	- Loading = “eager” or “lazy”
-	- <figure> img tag goes here <figcaption>figure caption goes here </figcaption>	</figure>
+	- <figure> 
+		img tag goes here 
+		<figcaption>
+			figure caption goes here 
+		</figcaption>	
+	  </figure>
  	br*100 – creates one hundred line breaks
 
 	image resources: 
