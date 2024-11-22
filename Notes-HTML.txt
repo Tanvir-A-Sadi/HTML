@@ -98,6 +98,8 @@ Handling Text:
 	- <abbr title: "Full form goes here"> </abbr> : abbreviation
 	- <address> </address> 
 	- <strong> </strong>
+	- <code> </code>
+	- <article> </article>
 
 Chapter 4: Lists
 	- Ordered list : 
@@ -123,7 +125,7 @@ Chapter 5: Links
 	• Internal reference
 		- <section id = vacation>
 	</section>
-		- <nav> </nav>
+		- <nav aria-label = "label goes here" > </nav>
 		- Back to top using # only
 		- <a href = “html.png” download>HTML5 favicon</a>
 		- <a href = “mailto:sadi@gmail.com”>my email </a>
@@ -139,7 +141,7 @@ Chapter 6: Add Images
 	- Loading = “eager” or “lazy”
 	- <figure> 
 		img tag goes here 
-		<figcaption>
+		<figcaption> --> Fig caption is either the first thing or last thing inside figure.
 			figure caption goes here 
 		</figcaption>	
 	  </figure>
@@ -159,10 +161,10 @@ Chapter 7 Semantic Tags
 	- <main></main> only one main per page
 	- <footer></footer> can be more than one
 	- <aside></aside>
-	- <details></details>
-	- <summary></summary>
+	- <details></details> goes inside aside.
+	- <summary></summary> goes inside details
 	- <mark></mark>
-	- <Time></time>
+	- <time></time>
 To avoid:
 	- <div></div>
 	- <span></span>
